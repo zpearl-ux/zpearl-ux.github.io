@@ -28,3 +28,13 @@ figcaption{color:var(--muted);font-size:.9rem;margin-top:.4rem}
 .portrait{width:14rem;margin:0 0 1.5rem}
 footer{display:flex;gap:1.5rem;padding-top:1.5rem;padding-bottom:2.5rem;border-top:1px solid var(--rule);font-family:"Familjen Grotesk",sans-serif}
 @media (max-width:30rem){.ledger li{grid-template-columns:1fr;gap:0}}
+
+.intro h1{font:400 1.125rem/1.7 Literata,Georgia,serif;color:var(--muted);margin:0}
+.videos{display:grid;gap:1.5rem;margin:1.5rem 0}
+.videos figure{margin:0}
+.videos video{width:100%;height:auto;display:block;background:#000}
+.videos figcaption{color:var(--muted);font-family:"Familjen Grotesk",system-ui,sans-serif;font-size:.95rem;margin-top:.4rem}
+.about{display:flex;gap:2rem;align-items:flex-start}
+.about .portrait{flex:none;margin:0}
+.about-text p{margin:0 0 1rem}
+@media (max-width:36rem){.about{flex-direction:column}}
